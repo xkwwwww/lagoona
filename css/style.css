@@ -313,9 +313,47 @@ a {
     font-size: 16px;
     line-height: 200%;
     max-width: 888px;
+    margin-bottom: 70px;
 }
 .section-service-link {
     display: flex;
     align-items: center;
+    margin-left: 45px;
 }
-
+.section-service-link-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 200%;
+    color: #CC9933;
+}
+.section-service-heading {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    padding-left: 40px;
+    margin-bottom: 20px;
+}
+.section-service-image {
+    margin-bottom: 26px;
+}
+.section-service-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    max-width: 402px;
+    margin-left: 45px;
+}
+.section-service-link-arrow {
+    margin-left: 10px;
+}
+.section-service-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 50%;
+}
+.section-service-item:not(:nth-child(2n)) {
+    margin-right: 24px;
+}
+.section-service-item {
+    padding-bottom: 25px;
+}
