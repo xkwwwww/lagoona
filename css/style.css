@@ -69,17 +69,24 @@
     font-style: normal;
     font-display: swap;
 }
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
 
 html {
     font-family: "Muller", sans-serif;
 }
 
+* {
+    box-sizing: border-box;
+}
 .body {
     background-color: #e5e5e5;
+    margin: 0;
 }
 
 .container {
-    padding: 0 30px;
+    padding: 0 15px;
     margin: 0 auto;
     max-width: 1200px;
 }
@@ -87,9 +94,10 @@ html {
 .header {
     display: flex;
     flex-direction: column;
-    padding: 30px;
+    padding: 30px 0;
     justify-content: space-between;
     margin: 0 auto;
+    margin-bottom: 45px;
 }
 
 .header-top {
@@ -179,3 +187,118 @@ button {
 a {
     text-decoration: none;
 }
+
+.offer-container {
+    padding-bottom: 65px;
+}
+
+.section-offer-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section-offer-item-small {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 573px;
+}
+
+.section-offer-item-1 {
+    display: flex;
+    flex-direction: column;
+    background-image:linear-gradient( 90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7% ), url(../img/maldivi.jpg);
+    background-repeat: no-repeat;
+    height: 258px;
+    padding: 40px 45px;
+    min-height: 258px;
+    border-radius: 15px;
+}
+
+.section-offer-item-2 {
+    display: flex;
+    flex-direction: column;
+    background-image:linear-gradient( 90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7% ), url(../img/krit.jpg);
+    background-repeat: no-repeat;
+    height: 258px;
+    padding: 40px 45px;
+    min-height: 258px;
+    border-radius: 15px;
+}
+
+.section-offer-item-large {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url("../img/lux.jpg");
+    background-repeat: no-repeat;
+    background-position: top left;
+    width: 573px;
+    padding: 40px 45px;
+    height: 540px;
+    border-radius: 15px;
+}
+
+.section-offer-header {
+    padding-left: 40px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+
+.section-offer-item-name {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    width: 299px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+
+.section-offer-item-price {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    color: white;
+    opacity: 0.8;
+    margin-bottom: auto;
+}
+
+.section-offer-item-about {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #F0BF5F;
+    margin-right: 7px;
+}
+.section-offer-item-large-name {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 60px;
+    margin-top: auto;
+}
+
+.section-offer-item-large-price {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 47px;
+}
+.section-offer-item-icon {
+    background-image: url("../img/arrow.svg");
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: left center;
+
+}
+.section-offer-item-link {
+  display: flex;
+    align-items: center;
+    line-height: 1;
+}
+
