@@ -69,6 +69,7 @@
     font-style: normal;
     font-display: swap;
 }
+
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
@@ -80,6 +81,7 @@ html {
 * {
     box-sizing: border-box;
 }
+
 .body {
     background-color: #e5e5e5;
     margin: 0;
@@ -208,7 +210,7 @@ a {
 .section-offer-item-1 {
     display: flex;
     flex-direction: column;
-    background-image:linear-gradient( 90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7% ), url(../img/maldivi.jpg);
+    background-image: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(../img/maldivi.jpg);
     background-repeat: no-repeat;
     height: 258px;
     padding: 40px 45px;
@@ -219,7 +221,7 @@ a {
 .section-offer-item-2 {
     display: flex;
     flex-direction: column;
-    background-image:linear-gradient( 90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7% ), url(../img/krit.jpg);
+    background-image: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(../img/krit.jpg);
     background-repeat: no-repeat;
     height: 258px;
     padding: 40px 45px;
@@ -274,6 +276,7 @@ a {
     color: #F0BF5F;
     margin-right: 7px;
 }
+
 .section-offer-item-large-name {
     font-weight: 700;
     font-size: 60px;
@@ -287,6 +290,7 @@ a {
     line-height: 30px;
     margin-bottom: 47px;
 }
+
 .section-offer-item-icon {
     background-image: url("../img/arrow.svg");
     width: 15px;
@@ -296,11 +300,13 @@ a {
     background-position: left center;
 
 }
+
 .section-offer-item-link {
-  display: flex;
+    display: flex;
     align-items: center;
     line-height: 1;
 }
+
 .section-about-header {
     font-weight: 400;
     font-size: 40px;
@@ -308,6 +314,7 @@ a {
     padding-left: 40px;
     margin-bottom: 15px;
 }
+
 .section-about-text {
     font-weight: 400;
     font-size: 16px;
@@ -315,27 +322,33 @@ a {
     max-width: 888px;
     margin-bottom: 70px;
 }
+
 .section-service-link {
     display: flex;
     align-items: center;
     margin-left: 45px;
 }
+
 .section-service-link-text {
     font-weight: 500;
     font-size: 20px;
     line-height: 200%;
     color: #CC9933;
 }
+
 .section-service-heading {
     font-weight: 400;
     font-size: 40px;
     line-height: 40px;
     padding-left: 40px;
     margin-bottom: 20px;
+    color: #333333;
 }
+
 .section-service-image {
     margin-bottom: 26px;
 }
+
 .section-service-text {
     font-weight: 400;
     font-size: 16px;
@@ -343,17 +356,49 @@ a {
     max-width: 402px;
     margin-left: 45px;
 }
+
 .section-service-link-arrow {
     margin-left: 10px;
 }
+
 .section-service-list {
     display: flex;
     flex-wrap: wrap;
     flex: 1 1 50%;
 }
+
 .section-service-item:not(:nth-child(2n)) {
     margin-right: 24px;
 }
+
 .section-service-item {
     padding-bottom: 25px;
+}
+
+.section-advantages-heading {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    color: #333333;
+    margin-top: 70px;
+    margin-left: 15px;
+}
+
+.section-advantages-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 25%;
+    margin-left: 30px;
+}
+
+.section-advantages-item {
+    max-width: 189px;
+    margin-right: 94px;
+    margin-top: 42px;
+}
+
+.section-advantages-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
 }
