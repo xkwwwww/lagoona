@@ -87,7 +87,7 @@ html {
 }
 
 .body {
-    background-color: green;
+    background-color: white;
     margin: 0;
 }
 
@@ -354,6 +354,7 @@ a {
 .section-service {
     margin-bottom: 70px;
 }
+
 .section-service-image {
     border-radius: 15px 15px 0 0;
 }
@@ -382,26 +383,31 @@ a {
 
 }
 
+.section-advantages {
+    margin-bottom: 70px;
+}
+
 .section-advantages-heading {
     font-weight: 400;
     font-size: 40px;
     line-height: 40px;
     color: #333333;
     margin-left: 15px;
+    margin-bottom: 15px;
 }
 
 .section-advantages-list {
     display: flex;
     flex-wrap: wrap;
     flex: 1 1 25%;
-    margin-left: 30px;
-    margin-bottom: 70px;
+    gap: 22px;
 }
 
 .section-advantages-item {
-    max-width: 189px;
-    margin-right: 94px;
-    margin-top: 42px;
+    max-width: 276px;
+    background-color: #fff;
+    padding: 40px 42px 32px 45px;
+    border-radius: 15px;
 }
 
 .section-advantages-text {
@@ -421,10 +427,14 @@ a {
 
 .placement-present {
     margin-bottom: 36px;
+    border-radius: 15px 15px 0 0;
+}
+
+.section-placement-inside {
+    margin-left: 45px;
 }
 
 .opacity {
-    margin-left: 45px;
     color: #999999;
     display: inline;
 }
@@ -433,7 +443,7 @@ a {
     font-size: 16px;
     font-weight: 400;
     display: inline;
-
+    margin-right: 52px;
 }
 
 .section-placement-digits {
@@ -445,23 +455,24 @@ a {
 
 .section-placement-star {
     display: inline-block;
-    margin-left: 44px;
 }
 
 .section-placement-name {
     margin-top: 16px;
-    margin-left: 45px;
 }
 
 .section-placement-place {
     margin-top: 16px;
-    margin-left: 45px;
     color: #999999;
+}
+
+.section-placement-item {
+    background-color: #fff;
+    border-radius: 15px;
 }
 
 .btn {
     margin-top: 16px;
-    margin-left: 45px;
     margin-bottom: 58px;
     color: #CC9933;
     border-radius: 10px;
@@ -472,7 +483,7 @@ a {
 .section-placement-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    gap: 24px;
 }
 
 .section-placement-itemL {
